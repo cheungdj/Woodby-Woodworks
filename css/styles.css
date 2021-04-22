@@ -1,0 +1,252 @@
+html, body{
+    height: 100%;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+}
+
+#home-body{
+    overflow-x:hidden;
+}
+
+#contact-body{
+    overflow-x:hidden;
+}
+
+p{
+    font-size: 1rem;
+}
+
+#nav-bar{
+    background-color: #68B0AB;
+    font-weight: bold;
+    padding-right: 0;
+    z-index: 1000;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    z-index: 1000;
+
+}
+.navbar-brand{
+    font-weight: lighter;
+    font-stretch:extra-expanded;
+    letter-spacing: 0.125em;
+    font-size: 2.5rem;
+    z-index: 1000;
+}
+
+#logo{
+    width: 10%;
+    padding-bottom: 1rem;   
+}
+
+.dropdown-menu{
+    background-color: #FAF3DD;
+    color: white;
+    z-index: 1000;
+}
+.dropdown-item{
+    font-weight: bold;
+    color: #537565;
+    z-index: 1000;
+}
+
+.btn-custom:hover{
+    background-color:#68B0AB;;
+}
+
+.page-header{
+    font-size: 2rem;
+    background: #8FC0A9;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    color: white;
+
+}
+
+#home-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-shadow:  4px 4px #537565;
+}
+
+#leaf{
+    margin:0.5rem;
+    width: 8%;
+}
+
+#home-description{
+    padding-top: 1rem;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#FAF3DD;
+}
+
+#quote{
+    margin: 1.5rem;
+    margin-left: 0;
+    margin-right:0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    border-color: white;
+}
+.carousel{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.carousel .item{
+    height: 600px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+.team-section{
+    padding-top: 5rem;
+    background-color: #FAF3DD;
+    color: #68B0AB;
+    padding-bottom: 12.5rem;
+}
+
+#introduction{
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 3px 3px #537565;
+}
+
+.team-member{
+    padding-bottom: 3rem;
+    margin: 3rem;
+}
+
+.team-member img{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+}
+
+.team-member h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.team-member h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.team-member p{
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    margin-right:3rem;
+}
+
+.footer{
+    background-color: #537565;
+    padding-bottom: 0;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+/*Contact*/ 
+.contact-form{
+    padding-top: 12rem;
+    background-color:#8FC0A9;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 12.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-title{
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px #537565;
+}
+
+/*Products*/ 
+.product-body{
+    background-color: #FAF3DD;
+    overflow-x:hidden;
+}
+.product-section{
+    padding-top:12rem;
+}
+
+.categories{
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.product-title{
+    font-weight: bold;
+    font-size: 3rem;
+    color:#8FC0A9;
+    text-shadow: 3px 3px #537565;
+}
+
+.category{
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    font-weight: bold;
+    color: #00A9B4;
+    text-shadow: 3px 3px #537565;
+}
+
+.card{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    width: 100%;
+    font-weight: bold;
+    color: #537565;
+}       
+
+.card img{
+    max-width: fit-content;
+    max-height: 30%;
+}
+
+.cart{
+    width: 20px;
+}
+
+/*References*/
+.reference-title{
+    padding-top: 30rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px #537565;
+
+}
+
+.parallax{
+    background:url(../images/wood.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+.image-card{
+    padding-top: 30rem;
+}
+
+.icon-card{
+    padding-top: 10rem;
+}
+
+#deposit-message{
+    font-size: 1.2rem;
+}
