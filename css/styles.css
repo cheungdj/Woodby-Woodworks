@@ -6,9 +6,12 @@ html, body{
 
 #home-body{
     overflow-x:hidden;
+    background-color: #8FC0A9;
+    padding: 0;
 }
 
 #contact-body{
+    background-color: #8FC0A9;
     overflow-x:hidden;
 }
 
@@ -182,7 +185,7 @@ p{
     overflow-x:hidden;
 }
 .product-section{
-    padding-top:12rem;
+    padding-top:5rem;
 }
 
 .categories{
