@@ -30,9 +30,8 @@ p{
 }
 .navbar-brand{
     font-weight: lighter;
-    font-stretch:extra-expanded;
     letter-spacing: 0.125em;
-    font-size: 2.5rem;
+    margin-right: 5rem;
     z-index: 1000;
 }
 
@@ -250,3 +249,11 @@ p{
 #deposit-message{
     font-size: 1.2rem;
 }
+
+@media (max-width: 575px) {
+    button.navbar-toggler {
+        position: absolute !important;
+        right: 10px !important;
+        top: 14px !important;
+    }
+ }
